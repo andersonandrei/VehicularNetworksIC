@@ -1,0 +1,45 @@
+﻿Atas de reuniões
+
+
+(27/04) Primeira - discussão do paper
+	Direcionamento à primeira leitura: Migrate or not Migrate
+
+
+(02/05) Segunda - discussão do anterior:
+	Decisão: Não tinha algo tão prático nem com exemplos claros. 
+		Busca de papers com trabalhos implementados.
+		Escolha: Problems, and quality of service (QoS)
+
+(09/05) Terceira - discussão do anerior:
+	Decisão: interessante, mas precisamos atacar de forma clara o problema.
+	Buscar um simulador para tentarmos enxergar situações.
+		Encontrado: NS-3 simulator
+
+(16/05) Quarta - discussão do NS-3:
+	Conclusões, difícil de usar, complicado e quase impossível! 
+		Ideia: Streaming de Vídeo em redes veiculares:
+		Montar mini paper (apresentação) e pensar em como modelar o sistema
+		Expectativa: Paper bem feito => já pedir bolsa e “mostrar o que tá sendo feito (pra Unicamp inclusive).
+		Ficar uns 2, 3 meses modelando o problema pra dái pensarmos em simulações.
+
+(25/05) Quinta às 15h - análise da introdução
+	Correçoẽs feitas na introdução
+		Ortografia
+		Sentenças muito longas
+		Informações muito densas, temos que generalizar mais na introdução e destrinchar nos próximos tópicos. Ex: dificuldades da rede.
+
+(08/06) Quinta às 15h - Continuação do paper.
+	Correções apontadas via e-mail sobre a introdução.
+	Necessidade / terefas : Modelar o cenário.
+		-Buscar no paper root referências pra papers com modelos pra nos basearmos.
+			- Meios de conexão:
+				Posição das antenas.
+				O que terá nos carros.
+			- Tipo de vídeos:
+				Pouco / muito movimentados.
+			- Carros:
+				Movimento (inicialmente contínuo e em linha reta).
+				Quantidade (primeiro com 1, depois com 2 e assim vai).
+			- Modelos de Roteamento de Redes Veículares.
+		- Pro streaming podemos usar softwares que já façam isso, e talvez deixemos um pouco de lado como fazer
+		
