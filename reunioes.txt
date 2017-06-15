@@ -43,3 +43,13 @@
 			- Modelos de Roteamento de Redes Veículares.
 		- Pro streaming podemos usar softwares que já façam isso, e talvez deixemos um pouco de lado como fazer
 		
+(13/06) Terça às 16h - Conversa com prof. Edmundo.
+	O que eles estão fazendo : Comunicação entre ônibus na cidade de
+						Luxemburgo.
+		- Simulação: Sumo (mobilidade) e “Vence” (Comunicação) + Omnete(é conectado ao sumo pelo “vece”.
+				- Ifog “Sync” para a movimentação. (Outra opção é o Cloud “Sync”), Gold comentou do Syncgrid.
+		- Indicação: Coimbra (Stream) → Edmundo Monteiro + David Abreu e Carine, tem modelo analítico.
+		_Possibilidade de uma videoconferência.
+
+
+	 
