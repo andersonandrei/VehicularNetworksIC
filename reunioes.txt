@@ -51,5 +51,7 @@
 		- Indicação: Coimbra (Stream) → Edmundo Monteiro + David Abreu e Carine, tem modelo analítico.
 		_Possibilidade de uma videoconferência.
 
-
-	 
+(14/08) Segunda às 19h (online) - Voltando aos trabalhos.
+		- Manter o foco nos pontos abordados no dia 08/06 pra depois o que o Edmundo nos passou;
+		- Ler os papers [1] e [13] esperando suprir : Modelo de rede, conexão, movimentação e carros. 
+	 	
