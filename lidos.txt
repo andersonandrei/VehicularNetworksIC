@@ -1,0 +1,2 @@
+[4] Shanhe Yi, Cheng Li, and Qun Li. A survey of fog computing: concepts, applications and issues. In Proceedings of the 2015 Workshop on Mobile Big Data
+[6] Hong Yao, Changmin Bai, Deze Zeng, Qingzhong Liang, and Yuanyuan Fan. Migrate or not? exploring virtual machine migration in roadside cloudlet-based vehicular cloud. Concurrency and Computation: Practice and Experience, 27(18):5780–5792, 2015.
