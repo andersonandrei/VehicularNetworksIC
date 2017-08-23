@@ -54,3 +54,41 @@
 		- Manter o foco nos pontos abordados no dia 08/06 pra depois o que o Edmundo nos passou;
 		- Ler os papers [1] e [13] esperando suprir : Modelo de rede, conexão, movimentação e carros. 
 	 	
+(23/08)	Quarta às 20h (online) - Modelando
+		*Usar padrão 802.11 p;
+		*Modos de conexao v2v, v2c;
+		-3 tipos de cloudlets:
+			-Vehicular
+				-GVCC : Gerenciador que especificam que carros vão ter quais vms (enxergar outros carros)
+					*Provável melhor escolha para o modelo.
+				-SVCC :	
+			-Roadside : Servidor dedicado com pontos ao longo da pista
+				*Será que a Unicamp n tem já algo desenvolvido? Achamos que não vamos conseguir desenvolver um novo pois pode chegar na plataforma deles e eles já terem uma específica.
+			-Central
+				Essa é do provedor dos "vídeos"
+		-Tipos de download
+			-A) O carro exerga os carros e avisa pra cloudlet para realocação do transito.
+			-B) Os onibus tem camera HD filmando, mas para armazenar ele vão passando pra cloudlets, no final, cada cloudlet tem pedaços com os horários.
+			-C) Download cooperativo de arquivos grandes
+				-Supondo que estão indo pro mesmo lugar, seria perfeito!
+				*Será que então não vale a pena questionarmos no nosso sistema "Pra onde vão" ?
+				*Estando no wifi (WAVE), fica fácil compartilhar coisas na rede entre os carros.
+				*No 3g/4g já fica difícil, será que temos como supor isso compartilhado ou via cota?
+
+		- Modelos para migração de VM:
+			-São 4.
+			*Verificar quais a Unicamp usa, pra dai então estudar a fundo.
+
+		-Predição de videos:
+			*Deixa trechos dos vídeos pré baixado, para download "instataneo" no momento da conexão com a cloudlet para dar a falsa sensação de "live" e ai ter o tempo então de baixar mais pedaços.
+
+		- Tipos de vídeos:
+			*Filmes, vídeos e live.
+
+		- Movimentação dos carros:
+			*Movimentação linear, transitando pouco entre muitas cloudlets, e sem muitos pontos de para.
+			*Definir por exemplo 4 pontos, e carros transitando entres percursos diferentes:
+				Um vai de A-B
+				Um vai de A-D
+					=> Duranto A-B, os dois baixam o mesmo cooperativamente.
+		
