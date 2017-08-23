@@ -54,7 +54,8 @@
 		- Manter o foco nos pontos abordados no dia 08/06 pra depois o que o Edmundo nos passou;
 		- Ler os papers [1] e [13] esperando suprir : Modelo de rede, conexão, movimentação e carros. 
 	 	
-(23/08)	Quarta às 20h (online) - Modelando
+(23/08)	Quarta às 20h (online) - Discutindo paper e modelando o ambiente.
+		(Apontamentos em geral são sobre o paper, mas (*) especificam os pontos do nosso modelo.
 		*Usar padrão 802.11 p;
 		*Modos de conexao v2v, v2c;
 		-3 tipos de cloudlets:
