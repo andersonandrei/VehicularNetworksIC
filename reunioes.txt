@@ -92,4 +92,8 @@
 				Um vai de A-B
 				Um vai de A-D
 					=> Duranto A-B, os dois baixam o mesmo cooperativamente.
-		
+(25/08) Sexta-feira
+	- Tratar modos de conexão de veículos : v2f -> Direto com a Cloud
+	- Focar na banda, procurar simuladores e estudar distribuição de arquivos grandes.		
+	- Na predição de vídeos, padronizar um tempo de delay específico para todos.
+	- Tranferencia de pacotes: Qual é melhor, UDP ou TCP/IP ?
