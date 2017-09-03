@@ -1,0 +1,77 @@
+﻿Atas de reuniões
+
+(27/04) Primeira - discussão do paper
+	Direcionamento à primeira leitura: Migrate or not Migrate
+
+
+(02/05) Segunda - discussão do anterior:
+	Decisão: Não tinha algo tão prático nem com exemplos claros. 
+		Busca de papers com trabalhos implementados.
+		Escolha: Problems, and quality of service (QoS)
+
+(09/05) Terceira - discussão do anerior:
+	Decisão: interessante, mas precisamos atacar de forma clara o problema.
+	Buscar um simulador para tentarmos enxergar situações.
+		Encontrado: NS-3 simulator
+
+(16/05) Quarta - discussão do NS-3:
+	Conclusões, difícil de usar, complicado e quase impossível! 
+		Ideia: Streaming de Vídeo em redes veiculares:
+		Montar mini paper (apresentação) e pensar em como modelar o sistema
+		Expectativa: Paper bem feito => já pedir bolsa e “mostrar o que tá sendo feito (pra Unicamp inclusive).
+		Ficar uns 2, 3 meses modelando o problema pra dái pensarmos em simulações.
+
+(25/05) Quinta às 15h - análise da introdução
+	Correçoẽs feitas na introdução
+		Ortografia
+		Sentenças muito longas
+		Informações muito densas, temos que generalizar mais na introdução e destrinchar nos próximos tópicos. Ex: dificuldades da rede.
+
+(08/06) Quinta às 15h - Continuação do paper.
+	Correções apontadas via e-mail sobre a introdução.
+	Necessidade / terefas : Modelar o cenário.
+		-Buscar no paper root referências pra papers com modelos pra nos basearmos.
+			- Meios de conexão:
+				Posição das antenas.
+				O que terá nos carros.
+			- Tipo de vídeos:
+				Pouco / muito movimentados.
+			- Carros:
+				Movimento (inicialmente contínuo e em linha reta).
+				Quantidade (primeiro com 1, depois com 2 e assim vai).
+			- Modelos de Roteamento de Redes Veículares.
+		- Pro streaming podemos usar softwares que já façam isso, e talvez deixemos um pouco de lado como fazer
+		
+(13/06) Terça às 16h - Conversa com prof. Edmundo.
+	O que eles estão fazendo : Comunicação entre ônibus na cidade de
+						Luxemburgo.
+		- Simulação: Sumo (mobilidade) e “Vence” (Comunicação) + Omnete(é conectado ao sumo pelo “vece”.
+				- Ifog “Sync” para a movimentação. (Outra opção é o Cloud “Sync”), Gold comentou do Syncgrid.
+		- Indicação: Coimbra (Stream) → Edmundo Monteiro + David Abreu e Carine, tem modelo analítico.
+		_Possibilidade de uma videoconferência.
+
+(14/08) Segunda às 19h (online) - Voltando aos trabalhos.
+		- Manter o foco nos pontos abordados no dia 08/06 pra depois o que o Edmundo nos passou;
+		- Ler os papers [1] e [13] esperando suprir : Modelo de rede, conexão, movimentação e carros. 
+	 	
+(23/08)	
+		-Usar padrão 802.11 p
+		-Modos de conexao v2v, v2c,
+		-3 tipos de cloudlets 
+			-Vehicular
+				-GVCC : Gerenciador que especificam que carros vão ter quais vms (enxergar outros carros)
+					*Provável melhor escolha para o modelo.
+				-SVCC :	
+			-Roadside : Servidor dedicado com pontos ao longo da pista
+				*Será que a Unicamp n tem já algo desenvolvido? Achamos que não vamos conseguir desenvolver um novo pois pode chegar na plataforma deles e eles já terem uma específica.
+			-Central
+				Essa é do provedor dos "vídeos"
+		-Tipos de download
+			-Download cooperativo de arquivos grandes
+				-Supondo que estão indo pro mesmo lugar, seria perfeito!
+				*Será que então não vale a pena questionarmos no nosso sistema "Pra onde vão" ?
+				*Já estar no Wifi da cloudlet isso fica fácil.				*No 3g/4g isso fica difícil, será que podemos assumir 3g/4g compartilhada, ou cota disponibilizada?
+				
+			*Predição dos videos e pré-downloads curtos para dar a sensação de "live" e a partir daí começar a baixar de verdade.
+				
+				*Fora isso   									
