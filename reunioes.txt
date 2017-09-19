@@ -140,3 +140,9 @@
 	- Foi dicidido então estudo Dash (utilizado pelo Youtube e Netflix), distribuição de pacotes Multicast;
 	- Vamos usar principalmente o Kurose;
 	- Vamos atras do Sumo e Estinet
+	- Enviar tais decisões por e-mail para o Gold.
+
+(11/09) Segunda-feira: Analisando devolutiva do e-mail
+	- Decidimos fazer o estudo dos primeiros 2 capítulos do livro de Redes do Kurose para começarmos a ter noções dos esquemas de redes que precisaremos estudar para elaborar um modelo e futuramente implementa-lo;
+	- Em relação ao DASH vamos fazer um estudo comparativo com outras formas de disponibilização de conteúdo de mídia para verificarmos se ele é realmente a melhor opção para o nosso modelo devido ao fato da utilização de TCP e o nosso trabalho ser focado em transmissões ao vivo. Vamos realizar durante esse semana algumas pesquisas sobre trabalhos que utilizaram o DASH em plataformas de transmissão ao vivo para conseguirmos uma justificativa do uso ou não do DASH;
+	- Em relação ao simulador que vamos focar, o SUMO, nós pretendemos fazer o estudo dos modelos e do fluxo de código dos módulos, para assim termos uma visão mais detalhada de onde poderemos incluir implementações próprias e onde conseguiremos utilizar coisas do próprio simulador para no futuro implementar o nosso modelo;
