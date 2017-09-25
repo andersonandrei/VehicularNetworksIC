@@ -146,3 +146,58 @@
 	- Decidimos fazer o estudo dos primeiros 2 capítulos do livro de Redes do Kurose para começarmos a ter noções dos esquemas de redes que precisaremos estudar para elaborar um modelo e futuramente implementa-lo;
 	- Em relação ao DASH vamos fazer um estudo comparativo com outras formas de disponibilização de conteúdo de mídia para verificarmos se ele é realmente a melhor opção para o nosso modelo devido ao fato da utilização de TCP e o nosso trabalho ser focado em transmissões ao vivo. Vamos realizar durante esse semana algumas pesquisas sobre trabalhos que utilizaram o DASH em plataformas de transmissão ao vivo para conseguirmos uma justificativa do uso ou não do DASH;
 	- Em relação ao simulador que vamos focar, o SUMO, nós pretendemos fazer o estudo dos modelos e do fluxo de código dos módulos, para assim termos uma visão mais detalhada de onde poderemos incluir implementações próprias e onde conseguiremos utilizar coisas do próprio simulador para no futuro implementar o nosso modelo;
+
+(23/09) Sexta-feira: Online - Resumos do que está em andamento
+	- Simulador:
+		- O simulador parece ser bem bacana e parece realmente ser o caminho que vamos usar. Por enquanto está uma confusão de nomes, pois é como se fosse uma única API com um monte de bibliotecas. Então o OMNet++ é a API e o Veins é uma das bibliotecas.
+		- No momento estamos usando o OMNet++, que é o simulador propriamente dito, aprendendo sua estrutura , ferramentas e afins.
+		- Estrutura: A programação é em C++ e ele trabalha com 3 tipos de arquivos principalmente:
+			- NED: é utilizado para definir os componentes e uní-los como sendo parte de uma rede.
+			- omnetpp.ini: é o inicializador da simulação, e especifíca qual rede será executada, já que o NED pode possuir várias. Aqui também é possível definir parâmetros e variáveis "globais".
+			- .cc : por último, o código em C++ propriamente dito que é o responsável pela ação da simulação.
+			Em resumo, o NED cria e junta os componentes, o inicializador aponta qual rede do NED será executada, assim como o arquivo .cc importa os componentes (portante a rede) do NED.
+		- Recursos: A partir do contato com uns primeiros exemplos tivemos contato com:
+			- Gráficos: Parece boa a geração de gráficos no programa. Elas permitem gravações e então posteriormente a API gera tais gráficos (de vários tipos, histograma, pontos, etc). 
+				Problema: para exemplos pequenos os arquivos de saídas já foram relativamente "pesados".
+			- Debug: É possível debugar cada elemento da rede separado, de forma a não ter que ficar procurando eventuais erros ou eventos em toda uma saída e então tentar apontar qual resposta é de que elemento.
+			- Caracterização: É possível diferenciar os elementos, com cores, imagens e etc.
+		- Novamente, o simulador parece bacana  completo. Tivemos um primeiro contato e percebemos tais característica, procurando em tutoriais mais avançados verificamos também a inclusão de movimentação dos elementos da rede, o que é claro demanda uma maior curva de aprendizado, junto com o ganho de prática e familiaridade com o programa.
+
+	- DASH:
+		"The adaptation to the bitrate or spatial resolution is done on the client side for each segment, e.g., the client can switch to a higher bitrate  if bandwidth permits  on a per segment basis, or to a lower bitrate  if bandwidth decreases. This has several advantages because the client knows its capabilities such as the received throughput, delay, device capabilities (e.g., screen resolution), etc. best." [1]
+		Baseado nessa frase achamos que o DASH (assim como qualquer tecnologia transmissão adaptativa) parece uma ótima solução, como modo de transmissão de arquivo de mídia, para o nosso modelo. O fato do Dash permitir ao cliente redimensionar e optar pelo melhor bitrate dependendo das limitações de recursos parece oferecer uma maneira eficiente de proporcionar a melhor qualidade possível para o usuário.
+
+		"All existing adaptive HTTP streaming technologies, such as the proprietary Adobe HTTP Dynamic Streaming (HDS), Apple HTTP Live Streaming (HLS), Microsoft Smooth Streaming (MSS), and the only international standardized solution MPEG Dynamic Adaptive Streaming over HTTP (MPEG-DASH) follow nearly the same principle." [1]
+		Outro motivo é o fato do DASH ser uma técnica intercionalizada facilitando assim o uso e a distribuição dela por aplicações.
+
+		"[Tabela do site] [2]"
+		Se compararmos as features oferecidas pelo DASH em relação a todas as outras tecnologias de transmissão adaptativa, podemos perceber que ele parece realmente ser a melhor escolha dentro desta categoria.
+	
+		Em relação a todas essas features algumas parecem ser bem interessantes para a nossa aplicação de transmissão ao vivo:
+			1 - "Deployment on Standard HTTP Servers": Isso facilita a implementação em servidores comuns, sem um gasto adicional para a implementação;
+			2 - "Fast Channel Switching": isso é diretamente relacionado ao tamanho dos pedaços em que a mídia é dividida, algumas implementações dividem em tamanhos de 10 segundos, mas o DASH divide em tamanhos de 2 a 4 segundos, facilitando uma rápida troca de qualidade entre os períodos da mídia;
+			3 - "Support Multiple CDNs[3] in Parallel": O DASH fornece uma forma de sinalização nativa para se obter conteúdo em paralelo de diversas fontes, isso permite ao cliente escolher a melhor fonte, algo que pode ser de extrema utilidade no nosso contexto de obtenção do conteúdo em tempo real na rede para os carros;
+			4 - "HTML5 Support": Utilizando as extensões de vídeo do HTML5 é possível utilizar a função nativa de reprodução dos buscadores atuais;
+			5 - "Agnostic to Video Codecs[4]": Nos da a liberdade de escolher e trabalhar com diversas codificadores de vídeo, permite a escolha daquele que nos parecer melhor à aplicação;
+			6 - "Agnostic to Audio Codecs[4]": Pelo mesmo motivo da feature acima;
+			7 - "Definition of Quality Metrics": O DASH permite e estabelace para o cliente métricas para avaliações de aspectos da qualidade do serviço, o que nos possibilita um melhor entendimento;
+			8 -  "Client Logging & Reporting": Oferece uma interface padrão de reporte de qualidade de serviço;
+			9 - "Client Failover": Oferece um mecanismo de checagem de falha das CDNs, permitindo o cliente baixar um mesmo segmento de diversas fontes, evitando perdas;
+			10 - "Multiple Video Views": Permite ao usuário optar por ângulos diferentes de vizualisação caso seja oferecido pelo provedor, isso é muito usado em transmissões ao vivo de fórmula 1 e pode ser facilmente utilizado na nossa aplicação em transmissões esportivas interativas num futuro;
+
+		Esses fatos todos são fonte da pesquisa relacionada a primeira referência, todas as outras referências explicam um pouco mais como o DASH funciona e parecem corroborar com a opinião da primeira. Portanto, imaginamos que o DASH será uma ferramente poderosa a se usar em relação a transmissão de mídia. 
+		O DASH vem dominando certos espaços no mercado de distribuidores de vídeo, como Netflix e YouTube, que passaram a usar o DASH como forma de distribuição adaptativa [7]. Isso nos mostra uma provável tendência do uso desta tecnologia no grande mercado de distribuidores, o que pode ser um grande indicativo que deveríamos utilizar o DASH. 
+		Outro ponto também é que algumas emissoras de TV estão começando a utilizar o DASH para transmissões UHD, um outro indicativo de que esta tecnologia pode ser a mais indicada no nosso caso [7].
+		De forma geral estamos bem convencidos de que o DASH é uma ótima opção para o nosso modelo quanto a forma de transmissão de mídia, pois pode ser utilizado de forma eficiente para transmissões ao vivo e pode nos fornecer basicamente todas as ferramentas que precisamos para a a nossa aplicação e para a análise dela. 
+		Portanto, achamos que o DASH pode sim suprir todas nossas necessidades de compreender e melhorar a transmissão e a QoS do nosso modelo.
+
+
+		[1] MPEG-DASH vs. Apple HLS vs. Microsoft Smooth Streaming vs. Adobe HDS - https://bitmovin.com/mpeg-dash-vs-apple-hls-vs-microsoft-smooth-streaming-vs-adobe-hds/
+		[2] Tabela de comparação MPEG-DASH vs. Apple HLS vs. Microsoft Smooth Streaming vs. Adobe HDS (Anexada)
+		[3] CDN https://en.wikipedia.org/wiki/Content_delivery_network
+		[4] Codec https://pt.wikipedia.org/wiki/Codec
+		[5] http://www.streamingmedia.com/Articles/Editorial/What-Is-.../What-is-MPEG-DASH-79041.aspx
+		[6] https://www.dacast.com/blog/explaining-mpeg-dash/
+		[7] https://www.encoding.com/mpeg-dash/
+		[8] http://www.streamingmediaglobal.com/Articles/Editorial/Featured-Articles/The-State-of-MPEG-DASH-2017-116505.aspx
+	
