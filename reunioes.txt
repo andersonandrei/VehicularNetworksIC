@@ -201,3 +201,16 @@
 		[7] https://www.encoding.com/mpeg-dash/
 		[8] http://www.streamingmediaglobal.com/Articles/Editorial/Featured-Articles/The-State-of-MPEG-DASH-2017-116505.aspx
 	
+(06/10) Reunião com Gold:
+	- Devolutiva do que tem sido feito desde Agosto:
+		- Parece que estamos no caminho certo. Seguir agora os seguintes pontos:
+		- Em relação aos protocolos um dos objetivos finais é talvez aplicar vários, e ver qual se sair melhor.
+		- Agora, temos os seguintes tópicos para seguir:		
+			- Descobrir porque DASH usa TCP (Pois TCP "não admiti" perca de pacotes, faria mais sentido o UDP);
+			- Ver como o DASH é, e se é, implementado no Omnete++;
+			- Simular um ambiente por completo agora:
+				- Ambiente pequeno, uma rua, com um ou dois carros em linha reta;
+				- Componentes: Carros, Antenas e a Nuvem;
+			- Montar um texto explicando os avanços atuais, nosso atual foco e a metodologia que estamos usando (pesquisando, usando o simulador (quais e o que em específico)) para enviar para a Unicamp.
+
+			
