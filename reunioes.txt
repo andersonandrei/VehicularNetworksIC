@@ -213,4 +213,19 @@
 				- Componentes: Carros, Antenas e a Nuvem;
 			- Montar um texto explicando os avanços atuais, nosso atual foco e a metodologia que estamos usando (pesquisando, usando o simulador (quais e o que em específico)) para enviar para a Unicamp.
 
+(15/10) Divisão de tarefas para até 15/11:
+	- Andrei:
+   		- Pesquisa e estudo da implementação de um ambiente em VEINS;
+		- Pesquisa e estudo da impletamentação dos modelos móveis da rede;
+		- Tentar implementar os itens acima;
+		- Realizar simulações com o ambiente e os modelos móveis;
+	
+	- Patrick:
+		- Instalação do simulador nos ambientes LINUX;
+		- Estudo do tutorial introdutório do VEINS;
+		- Pesquisa sobre a justificativa do uso do TCP no DASH;
+		- Pesquisa mais a fundo sobre o DASH;
+		- Procurar alguma implementação do DASH no VEINS;
+
+	- Texto para a UNICAMP.
 			
