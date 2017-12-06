@@ -1,0 +1,3 @@
+package vsnetworktcp;
+
+@license(LGPL);
