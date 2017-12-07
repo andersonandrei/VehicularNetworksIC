@@ -1,0 +1,37 @@
+05/12 08h~22h - Omnetando
+
+	- Em cima do exemplo de wireless do INET Framework implementamos uma versão com UDPStreamingVideo;
+	- Assim já ganahmos:
+		- Mobilidade (linear);
+		- Existências de obstáculos no cenário;
+		- Temos 1 aparelho como server e 4 como hosts.
+		- Dados a serem interpretados e passiveis de geração de gráficos.
+
+06/12 - 18h~08h - Omnetando
+	
+	- Tentativas de implementar o TCP no OMNet:
+	- Encontramos uma implementação direta do DASH mas não conseguimos rodar.
+		- Problemas de versões, a implementação utiliza módulos que não existem mais nas novas versões.
+		- Tentativas :
+			- Download das versões anteriores :
+				- Site sem suporte pra versões abaixo da 3, e queriamos a 2.5 (2013).
+			- Importar as classes do anterior isoladamente para a nova :
+				- Infinitos includes falhando e outros dando erro, pois os caminhos mudaram.
+
+	- Tentamos criar uma apenas de TCP do zero :
+		- Problemas:
+			- Não encontramos NENHUMA que exemplifique, nem exemplos simples de apenas 2 hosts.
+			- Tentativas baseadas no UDP que deu certo falham e achamos que não sabemos adicionar os diferenciais de um pro outro.
+			- Tentativas baseadas no do DASH de forma minimalistas ignorando os aspéctos do DASH em sim :
+				- Utiliza classes diferentes (desatualizadas e afins, ou seja, mesmos problemas do outro).
+		- Tentativa mais promissora :
+			- Apenas dois hosts, depois de muito fuçar manuais:
+				- Conseguimos estabelecer conexões entre os hosts, mas não conseguimos envio e recebimentos de pacotes.
+					- Na verdade, todos menos o server tentam enviar pacotes, e ainda assim, nenhum consegue receber dos que tentam enviar.
+			- Usar Telnet, que basicamente fica fazendo solicitação de pacotes.
+				- Ideia era fazer infinitar solicitações de pacotes e assim manter a conexão permanente sempre.
+				- Não conseguimos implementar.
+
+	- Observações gerais: O DASH já implementado depende, aparentemente, principalmente de um arquivo TCPGenericCliApp, que não temos nas novas versões.
+		- Fuçando manuais achamos que esse arquivo é uma atual junção de um Telnet + TCPBasicApp, mas não conseguimos entender como eles se juntam, logo não conseguimos separá-los para chegar no anterior.
+			(Até porque se a nova versão é a junção, não teriamos motivos para separá-los ... ) 
