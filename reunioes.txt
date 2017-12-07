@@ -229,3 +229,7 @@
 
 	- Texto para a UNICAMP.
 			
+(05/12) Projeto "Redes móveis" - VideoCall
+	- Continuar comparando com o DASH para apontar em que pontos vale a pena usar o DASH.
+	- Não necessariamente implementar todo o DASH ao pé da letra, conseguindo o TCP, utilizar algum aspecto do DASH e tentar uma implementação própria.
+	- Pra submissão, foi adiada uma semana a data do resumo, temos mais "2 semanas".	
