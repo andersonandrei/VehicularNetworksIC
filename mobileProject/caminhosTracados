@@ -1,0 +1,21 @@
+- Omnet++
+	- INETFramework
+
+		************
+		UDP:
+		************	
+		- Pegando do tutorial de Wireless que utiliza UDP, entender como funciona e então
+		- Aplicar UDPStreamingVideo nos packages.
+		- Testar nos passos seguintes 
+		- Generalizar pra n nodes
+		
+
+		************
+		TCP
+		************
+		- Entender a fundo UDPStreamingVideo
+			- AppCli
+			- AppSrv
+			- NED
+
+
