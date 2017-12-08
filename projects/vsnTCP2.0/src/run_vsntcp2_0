@@ -1,0 +1,16 @@
+#!/bin/sh
+#cd `dirname $0`
+DIR=`dirname $0`
+DIR=`(cd $DIR ; pwd)`
+INET_DIR=`(cd $DIR/../../inet/src ; pwd)`
+COMMAND_LINE_OPTIONS="-l $INET_DIR/INET -n $DIR/../simulations:$DIR:$INET_DIR"
+../src/vsntcp2_0 -n .:../src $*
+# for shared lib, use: opp_run -l ../src/vsntcp2_0 -n .:../src $*
+
+opp_run -l ../src/vsntcp2_0 -n .:../src
+
+if [ -x $DIR/vsntcp2_0 -o -x $DIR/vsntcp2_0.exe ]; then
+  $DIR/vsntcp2_0 $COMMAND_LINE_OPTIONS $*
+else
+  opp_run -l $DIR/vsntcp2_0 $COMMAND_LINE_OPTIONS $*
+fi
