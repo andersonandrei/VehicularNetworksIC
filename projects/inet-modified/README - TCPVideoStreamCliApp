@@ -1,0 +1,6 @@
+[README TCPVideoStreamCliApp]
+
+The 3 files with this name [TCPVideoStreamCliApp.cc, TCPVideoStreamCliApp.h, TCPVideoStreamCliApp.ned] are an implementation
+of an application for the INET-Framework of DASH over TCP.
+
+Those 3 files need to be copied to the src/inet/application/tcpapp folder of the INET to properly work.
