@@ -35,3 +35,16 @@
 	- Observações gerais: O DASH já implementado depende, aparentemente, principalmente de um arquivo TCPGenericCliApp, que não temos nas novas versões.
 		- Fuçando manuais achamos que esse arquivo é uma atual junção de um Telnet + TCPBasicApp, mas não conseguimos entender como eles se juntam, logo não conseguimos separá-los para chegar no anterior.
 			(Até porque se a nova versão é a junção, não teriamos motivos para separá-los ... ) 
+
+13/12 - Decisões sobre as simulações:
+	- Podemos trabalhar com Bit rates , considerando qualidades diferentes, ex: baixa, média e alta.
+		- Cruzar com Consumo de energia
+		- Cruzar com delay
+
+	- Overhead 
+		- Cruzar com quantidade de aparelhos.
+
+	- Tarefas: 
+		- Verificar quantidade máximas de veículos que conseguimos simular;
+		- Padronizar as execuções (tam dos pacotes e tempo de duração)
+		- Verificar variação da qualidade de vídeo do DASH dada a movimentação dos aparelhos.
