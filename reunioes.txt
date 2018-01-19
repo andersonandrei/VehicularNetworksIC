@@ -233,3 +233,95 @@
 	- Continuar comparando com o DASH para apontar em que pontos vale a pena usar o DASH.
 	- Não necessariamente implementar todo o DASH ao pé da letra, conseguindo o TCP, utilizar algum aspecto do DASH e tentar uma implementação própria.
 	- Pra submissão, foi adiada uma semana a data do resumo, temos mais "2 semanas".	
+
+	- Omnetando [descrição do trabalho realizado]
+
+	- Em cima do exemplo de wireless do INET Framework implementamos uma versão com UDPStreamingVideo;
+	- Assim já ganahmos:
+		- Mobilidade (linear);
+		- Existências de obstáculos no cenário;
+		- Temos 1 aparelho como server e 4 como hosts.
+		- Dados a serem interpretados e passiveis de geração de gráficos.
+
+(06/12) - 18h~08h – Omnetando [descrição do trabalho realizado]
+	
+	- Tentativas de implementar o TCP no OMNet:
+	- Encontramos uma implementação direta do DASH mas não conseguimos rodar.
+		- Problemas de versões, a implementação utiliza módulos que não existem mais nas novas versões.
+		- Tentativas :
+			- Download das versões anteriores :
+				- Site sem suporte pra versões abaixo da 3, e queriamos a 2.5 (2013).
+			- Importar as classes do anterior isoladamente para a nova :
+				- Infinitos includes falhando e outros dando erro, pois os caminhos mudaram.
+
+	- Tentamos criar uma apenas de TCP do zero :
+		- Problemas:
+			- Não encontramos NENHUMA que exemplifique, nem exemplos simples de apenas 2 hosts.
+			- Tentativas baseadas no UDP que deu certo falham e achamos que não sabemos adicionar os diferenciais de um pro outro.
+			- Tentativas baseadas no do DASH de forma minimalistas ignorando os aspéctos do DASH em sim :
+				- Utiliza classes diferentes (desatualizadas e afins, ou seja, mesmos problemas do outro).
+		- Tentativa mais promissora :
+			- Apenas dois hosts, depois de muito fuçar manuais:
+				- Conseguimos estabelecer conexões entre os hosts, mas não conseguimos envio e recebimentos de pacotes.
+					- Na verdade, todos menos o server tentam enviar pacotes, e ainda assim, nenhum consegue receber dos que tentam enviar.
+			- Usar Telnet, que basicamente fica fazendo solicitação de pacotes.
+				- Ideia era fazer infinitar solicitações de pacotes e assim manter a conexão permanente sempre.
+				- Não conseguimos implementar.
+
+	- Observações gerais: O DASH já implementado depende, aparentemente, principalmente de um arquivo TCPGenericCliApp, que não temos nas novas versões.
+		- Fuçando manuais achamos que esse arquivo é uma atual junção de um Telnet + TCPBasicApp, mas não conseguimos entender como eles se juntam, logo não conseguimos separá-los para chegar no anterior.
+			(Até porque se a nova versão é a junção, não teriamos motivos para separá-los ... ) 
+
+13/12 - Decisões sobre as simulações [descrição do trabalho realizado]
+	- Podemos trabalhar com Bit rates , considerando qualidades diferentes, ex: baixa, média e alta.
+		- Cruzar com Consumo de energia
+		- Cruzar com delay
+
+	- Overhead 
+		- Cruzar com quantidade de aparelhos.
+
+	- Tarefas: 
+		- Verificar quantidade máximas de veículos que conseguimos simular;
+		- Padronizar as execuções (tam dos pacotes e tempo de duração)
+		- Verificar variação da qualidade de vídeo do DASH dada a movimentação dos aparelhos.
+
+14/12 - [descrição do trabalho realizado]
+
+	- Conseguimos implementar o DASH usando os módulos novos.
+		- Descemos a fundo as hierarquias da nova estrutura e chegamos em como tudo está sendo executado e conseguimos adaptar o DASH (implementado numa versão antiga, na atual).
+
+	- A partir daí, finalizamos TCP e UDP.
+	- Pontos agora a serem trabalhados:
+		- Cenário ideal.
+		- Movimentação dos hosts.
+15/12 - [descrição do trabalho realizado]
+
+	- Estamos simulando com n hosts (depende dos nossos testes). Mas a quantidade é alterada via código, quando necessária.
+	- Definimos movimentação “caótica” e aleatória desses n nós.
+	- Funciona via wireless.
+	- Problemas:
+		- A distribuição de pacotes não é proporcional pra todos os nós;
+		- Quando um dos hosts atinge a quantidade máxima de pacotes, a simulação é encerrada, ignorando o fato de que nenhum dos outros recebeu tal quantia.
+		- Não entendemos como esse host (o que recebe todos os pacotes) é selecionado pelo servidor.
+
+18/12 – Decisões finais (do ano) :
+
+	- O cenário será:
+		- Servidor(recebendo da cloud) repassando pras antenas (nas rodovias) que passam pros carros.
+	- Os carros não vão repassar entre eles.
+	- Queremos trocas de antenas de acordo com a movimentação.
+
+[2018]
+
+17/01 – Retorno das atividades
+	
+	- Retomamos o projeto, e conversamos sobre o estado atual, e reforçamos os planos.
+	- Desejamos terminar as simulações no nosso cenário ideal (até então) e ter o paper escrito até Março.
+	- Se assim for, submetermos na trilha de workshops da SBRC.
+
+19/01 - [descrição do trabalho realizado]
+
+	- Encontramos vários exemplos com nosso cenário, minimalista, com 1 server, router, host.
+	- Antes descrevíamos como antenas, mas agora utilizaremos Aps como antenas.
+	- Em cima dos exemplos que encontramos (no próprio INET), vamos criar o nosso cenário mais elaborado.
+	- Testamos o cenário báscio com o nosso DASH e funcionou.
