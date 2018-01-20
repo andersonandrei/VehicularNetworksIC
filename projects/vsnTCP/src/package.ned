@@ -1,3 +1,0 @@
-package vsntcp;
-
-@license(LGPL);
