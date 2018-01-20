@@ -272,7 +272,7 @@
 		- Fuçando manuais achamos que esse arquivo é uma atual junção de um Telnet + TCPBasicApp, mas não conseguimos entender como eles se juntam, logo não conseguimos separá-los para chegar no anterior.
 			(Até porque se a nova versão é a junção, não teriamos motivos para separá-los ... ) 
 
-13/12 - Decisões sobre as simulações [descrição do trabalho realizado]
+(13/12) - Decisões sobre as simulações [descrição do trabalho realizado]
 	- Podemos trabalhar com Bit rates , considerando qualidades diferentes, ex: baixa, média e alta.
 		- Cruzar com Consumo de energia
 		- Cruzar com delay
@@ -285,7 +285,7 @@
 		- Padronizar as execuções (tam dos pacotes e tempo de duração)
 		- Verificar variação da qualidade de vídeo do DASH dada a movimentação dos aparelhos.
 
-14/12 - [descrição do trabalho realizado]
+(14/12) - [descrição do trabalho realizado]
 
 	- Conseguimos implementar o DASH usando os módulos novos.
 		- Descemos a fundo as hierarquias da nova estrutura e chegamos em como tudo está sendo executado e conseguimos adaptar o DASH (implementado numa versão antiga, na atual).
@@ -294,7 +294,7 @@
 	- Pontos agora a serem trabalhados:
 		- Cenário ideal.
 		- Movimentação dos hosts.
-15/12 - [descrição do trabalho realizado]
+(15/12) - [descrição do trabalho realizado]
 
 	- Estamos simulando com n hosts (depende dos nossos testes). Mas a quantidade é alterada via código, quando necessária.
 	- Definimos movimentação “caótica” e aleatória desses n nós.
@@ -304,7 +304,7 @@
 		- Quando um dos hosts atinge a quantidade máxima de pacotes, a simulação é encerrada, ignorando o fato de que nenhum dos outros recebeu tal quantia.
 		- Não entendemos como esse host (o que recebe todos os pacotes) é selecionado pelo servidor.
 
-18/12 – Decisões finais (do ano) :
+(18/12) – Decisões finais (do ano) :
 
 	- O cenário será:
 		- Servidor(recebendo da cloud) repassando pras antenas (nas rodovias) que passam pros carros.
@@ -313,13 +313,13 @@
 
 [2018]
 
-17/01 – Retorno das atividades
+(17/01) – Retorno das atividades
 	
 	- Retomamos o projeto, e conversamos sobre o estado atual, e reforçamos os planos.
 	- Desejamos terminar as simulações no nosso cenário ideal (até então) e ter o paper escrito até Março.
 	- Se assim for, submetermos na trilha de workshops da SBRC.
 
-19/01 - [descrição do trabalho realizado]
+(19/01) - [descrição do trabalho realizado]
 
 	- Encontramos vários exemplos com nosso cenário, minimalista, com 1 server, router, host.
 	- Antes descrevíamos como antenas, mas agora utilizaremos Aps como antenas.
