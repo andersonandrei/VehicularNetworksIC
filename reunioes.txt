@@ -325,3 +325,25 @@
 	- Antes descrevíamos como antenas, mas agora utilizaremos Aps como antenas.
 	- Em cima dos exemplos que encontramos (no próprio INET), vamos criar o nosso cenário mais elaborado.
 	- Testamos o cenário báscio com o nosso DASH e funcionou.
+
+# 2018
+(05-02)
+	- Reunião com o Gold (Feedback do cenário e do início do paper pra SBRC):
+		- Paper : Ta no caminho certo, só falta detalhar umas coisas melhor e fazer frases maiores, sem muitas quebras e pontos.
+		- Simulação :
+			- Ta boa também, mas verificar:
+				- Possibilidade de mais uma mobilidade pra comparação. Mobilidades mais reais, com aglomerações, por ex.
+				- Verificar qnt de acks pro TCP enviar algo. Fazer algo que ele comece a enviar x pacotes antes mesmo de receber os acks.
+				- Trabalhos relacionados : Mostrar trabalhos na área e justificar porque o nosso é útil.
+				- Verificar a possibilidade da implementação de um mapa no cenário.
+
+	- Reunião com o Roger (mesmo feedback que com o Gold) :		
+		- Cenário 
+			- Disse que tudo bem e não está errado em assumirmos que a infro de rede ta por tras e só simular os carros
+			- a ideia ta em um caminho bom
+		- Análise :
+
+			- tomar cuidadosó na analise em usar bitRate e PcktLoss porque são os mesmos, a diferença é que um vai estar tratado e o outro discretizado
+			- se usassemos dlay ficaria muito bom , porque ai podemos mostrar que de um lado voce ganha qualidade mas perde em atraso
+			- ficaria melhor ainda se usasse a contagem de hops, mas isso pode ficar pra um outro momento
+			- olharmos pra ver se 10,20 e 30 ta dando diferenças analisaveis pq senao, fica sem conteudo, daí devessemos usar 10, 100 e 1000 por ex e ai, readequar o cenário se necessário tamanho e etc.
