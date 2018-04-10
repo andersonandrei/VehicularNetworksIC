@@ -86,6 +86,6 @@ Seguem ,por semana, as atividades efetuadas a partir do dia 19/03 (data da inclu
 	- Semana do 02/04 : 
 		Por motivo de problemas pessoais, não trabalhei no projeto nessa semana.
 
-	- Semana 09/04 :
+	- Semana do 09/04 :
 		Revisão e correções seguindo os apontamento do feedback da submissão para a trilha
-		WTG da SBRC2018. O artigo foi aceito :D !!
+		WTG da SBRC2018. O artigo foi aceito :D !! Resultado divulgado 10/04.
