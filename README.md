@@ -77,7 +77,8 @@ Seguem ,por semana, as atividades efetuadas a partir do dia 19/03 (data da inclu
 
 	- Semana do 26/03 : 
 		Revisão geral do trabalho feito até então e levantamento das próximas tarefas. Junto com a
-		disciplina MAC0470 foi criado um subprojeto, para submeter o cenário concluído até a etapa anterior no repositório oficial da extensão do simulador, 
+		disciplina MAC0470 foi criado um subprojeto, para submeter o cenário concluído até a etapa
+		anterior no repositório oficial da extensão do simulador, 
 		INET Framework ( https://inet.omnetpp.org/ ), colaborando com a comunidade que o utiliza.
 
 	- Semana do 02/04 : 
