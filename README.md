@@ -64,3 +64,18 @@ dos, temos desde então nos adequado com o simulador escolhido, desenvolvendo ao
 poucos nossas aplicações. Atualmente já desenvolvemos e implementamos um dos
 primeiros cenários cotados pelo grupo e estamos trabalhando na parte de coleta de
 dados para fazermos as primeiras análises.
+
+As tarefas descritas a seguir darão continuidade as etapas desenvolvidas descritas.
+
+Acompanhamento do desenvolvimento :
+
+Aqui seguem as descrições ,por semana, das atividades efetuadas a partir do dia 19/03 (data da inclusão oficial da disciplina) :
+
+Semana do 19/03 : 
+	Revisão e conclusão das análises dos dados obtidos. Finalização do primeiro artigo do projeto e submissão na trilha WTG da SBRC2018 ( http://www.sbrc2018.ufscar.br/ ).
+
+Semana do 26/03 : 
+	Revisão geral do trabalho feito até então e levantamento das próximas tarefas. Junto com a disciplina MAC0470 foi criado um subprojeto, para submeter o cenário concluído até a etapa anterior no repositório oficial da extensão do simulador, INET Framework ( https://inet.omnetpp.org/ ), colaborndo com a comunidade que o utiliza.
+
+Semana do 02/04 : 
+	Por motivo de problemas pessoais, não trabalhei no projeto nessa semana.
