@@ -1,0 +1,157 @@
+
+ ---- Packet Analysis ---- 
+
+All the values of this table are the means of all the 10 0experiments.
+DASH_50_3mps:
+App Request:  103.3
+App Received:  96.3
+Pck Loss Rate:  6.77637947725%
+DASH_100_3mps:
+App Request:  145.2
+App Received:  139.0
+Pck Loss Rate:  4.26997245179%
+DASH_150_3mps:
+App Request:  145.9
+App Received:  139.0
+Pck Loss Rate:  4.72926662097%
+TCP_50_3mps:
+App Request:  123.2
+App Received:  119.2
+Pck Loss Rate:  3.24675324675%
+TCP_100_3mps:
+App Request:  135.9
+App Received:  131.9
+Pck Loss Rate:  2.94334069169%
+TCP_150_3mps:
+App Request:  166.2
+App Received:  162.2
+Pck Loss Rate:  2.40673886883%
+UDP_50_3mps:
+App Request:  89.8
+App Received:  48.5
+Pck Loss Rate:  45.991091314%
+UDP_100_3mps:
+App Request:  90.0
+App Received:  41.2
+Pck Loss Rate:  54.2222222222%
+UDP_150_3mps:
+App Request:  90.0
+App Received:  59.5
+Pck Loss Rate:  33.8888888889%
+DASH_50_6mps:
+App Request:  103.4
+App Received:  96.8
+Pck Loss Rate:  6.3829787234%
+DASH_100_6mps:
+App Request:  122.2
+App Received:  114.8
+Pck Loss Rate:  6.05564648118%
+DASH_150_6mps:
+App Request:  108.4
+App Received:  100.8
+Pck Loss Rate:  7.0110701107%
+TCP_50_6mps:
+App Request:  126.2
+App Received:  122.2
+Pck Loss Rate:  3.16957210777%
+TCP_100_6mps:
+App Request:  150.3
+App Received:  146.3
+Pck Loss Rate:  2.66134397871%
+TCP_150_6mps:
+App Request:  88.1
+App Received:  84.1
+Pck Loss Rate:  4.54029511918%
+UDP_50_6mps:
+App Request:  89.9
+App Received:  29.3
+Pck Loss Rate:  67.4082313682%
+UDP_100_6mps:
+App Request:  80.9
+App Received:  38.9
+Pck Loss Rate:  51.9159456119%
+UDP_150_6mps:
+App Request:  89.9
+App Received:  35.4
+Pck Loss Rate:  60.6229143493%
+DASH 3mps
+Pck Mean Received Bits:  6217400.0
+DASH 6mps
+Pck Mean Received Bits:  7115600.0
+DASH 3mps
+Pck Mean Received Bits:  9273900.0
+DASH 6mps
+Pck Mean Received Bits:  7590800.0
+DASH 3mps
+Pck Mean Received Bits:  9066800.0
+DASH 6mps
+Pck Mean Received Bits:  7233900.0
+TCP 3mps
+Pck Mean Received Bits:  14624000.0
+TCP 6mps
+Pck Mean Received Bits:  14984000.0
+TCP 3mps
+Pck Mean Received Bits:  16148000.0
+TCP 6mps
+Pck Mean Received Bits:  17876000.0
+TCP 3mps
+Pck Mean Received Bits:  19784000.0
+TCP 6mps
+Pck Mean Received Bits:  14783400.0
+UDP 3mps
+Pck Mean Received Bits:  2910000.0
+UDP 6mps
+Pck Mean Received Bits:  1670736.0
+UDP 3mps
+Pck Mean Received Bits:  2472000.0
+UDP 6mps
+Pck Mean Received Bits:  2273520.0
+UDP 3mps
+Pck Mean Received Bits:  3570000.0
+UDP 6mps
+Pck Mean Received Bits:  2045520.0
+DASH:
+
+endToEndDelay       Means          Stddev
+50  - 3mps	5.53399687453	7.56057332259
+
+100 - 3mps	3.82238784433	3.65230633259
+
+150 - 3mps	3.66747330588	3.12456086024
+
+50  - 6mps	5.84487963876	7.43984522343
+
+100 - 6mps	4.98106003207	5.83870148191
+
+150 - 6mps	5.54995770327	4.96802028141
+
+TCP:
+
+endToEndDelay       Means          Stddev
+50  - 3mps	3.16388443248	4.96039218699
+
+100 - 3mps	2.91422184858	3.59647418838
+
+150 - 3mps	2.20911033349	1.90422576506
+
+50  - 6mps	3.82633892712	5.91076764908
+
+100 - 6mps	2.77037705687	2.81860610489
+
+150 - 6mps	5.06860211036	5.12918057305
+
+UDP:
+
+endToEndDelay       Means          Stddev
+50  - 3mps	0.491214053336	0.550441960684
+
+100 - 3mps	0.608301343182	0.810316042152
+
+150 - 3mps	0.414760090689	0.395439212224
+
+50  - 6mps	0.945296770129	1.13944904603
+
+100 - 6mps	nan	nan
+
+150 - 6mps	2.23238256282	1.67552179619
+
