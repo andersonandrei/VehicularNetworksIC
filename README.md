@@ -89,3 +89,6 @@ Seguem ,por semana, as atividades efetuadas a partir do dia 19/03 (data da inclu
 	- Semana do 09/04 :
 		Revisão e correções seguindo os apontamento do feedback da submissão para a trilha
 		WTG da SBRC2018. O artigo foi aceito :D !! Resultado divulgado 10/04.
+
+	- Semana do 16/04 :
+		Foi marcada uma pré-apresentação do nosso trabalho para o grupo de sistemas para o dia 23/04 para que possamos melhor nos preparar para o Congresso. Nessa semana foquei em rever toda a fundamentação do trabalho, os conceitos e bibliografias principais para estar preparado para possíveis questionamentos e para melhor preparar a apresentação.
