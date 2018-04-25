@@ -92,3 +92,6 @@ Seguem ,por semana, as atividades efetuadas a partir do dia 19/03 (data da inclu
 
 	- Semana do 16/04 :
 		Foi marcada uma pré-apresentação do nosso trabalho para o grupo de sistemas para o dia 23/04 para que possamos melhor nos preparar para o Congresso. Nessa semana foquei em rever toda a fundamentação do trabalho, os conceitos e bibliografias principais para estar preparado para possíveis questionamentos e para melhor preparar a apresentação.
+
+	- Semana do 23/04:
+		Nessa semana eu apresentei, junto ao meu grupo, nosso projeto do WTG do SBRC2018. A apresentação foi feita para o grupo de sistemas do IME e tivemos ótimos feedbacks. Assim sendo agora estamos trabalhando nas possíveis correções para a apresentação oficial que será no dia 6 de Maio no SBRC.
