@@ -95,3 +95,11 @@ Seguem ,por semana, as atividades efetuadas a partir do dia 19/03 (data da inclu
 
 	- Semana do 23/04:
 		Nessa semana eu apresentei, junto ao meu grupo, nosso projeto do WTG do SBRC2018. A apresentação foi feita para o grupo de sistemas do IME e tivemos ótimos feedbacks. Assim sendo agora estamos trabalhando nas possíveis correções para a apresentação oficial que será no dia 6 de Maio no SBRC.
+
+	- Semana do 30/04:
+		Fizemos as correções apontadas na nossa apresentação para o grupo de sistemas do IME.
+		No dia 06/05 fomos para a SBRC2018 em Campos do Jordão para então apresentar nosso
+		artigo. A apresentação foi ótima, tivemos muitas perguntas e comentários construtivos
+		e acreditamos que nos saímos bem.
+		A partir de agora, vamos nos reunir com nosso orientador para programar as próximas
+		etapas.
