@@ -110,3 +110,6 @@ Seguem ,por semana, as atividades efetuadas a partir do dia 19/03 (data da inclu
 		e acreditamos que nos saímos bem.
 		A partir de agora, vamos nos reunir com nosso orientador para programar as próximas
 		etapas.
+	
+		- De 6 a 7 de Maio : Participação no SBRC2018 em Campos do Jordão. 
+		<img src="SBRC2018/1.jpg" alt="SBRC2018 Campos do Jordão" />
