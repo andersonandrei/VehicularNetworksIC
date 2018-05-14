@@ -112,4 +112,4 @@ Seguem ,por semana, as atividades efetuadas a partir do dia 19/03 (data da inclu
 		etapas.
 	
 		- De 6 a 7 de Maio : Participação no SBRC2018 em Campos do Jordão. 
-		![SBRC2018 Campos do Jordão](SBRC2018/1.jpg)
+		![SBRC2018 Campos do Jordão](https://github.com/andersonandrei/VehicularNetworksIC/blob/master/SBRC2018/1.jpg)
