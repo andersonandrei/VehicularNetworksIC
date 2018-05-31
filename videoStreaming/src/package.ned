@@ -1,3 +1,0 @@
-package videostreaming;
-
-@license(LGPL);

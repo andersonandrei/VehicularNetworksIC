@@ -1,3 +1,0 @@
-package serverantenna;
-
-@license(LGPL);

@@ -1,6 +1,0 @@
-<area shape="rect" id="node1" href="simulationsPaper.simulations.Net.html" title="Network Net" alt="" coords="389,5,461,31">
-<area shape="rect" id="node2" href="../../../inet/doc/neddoc/inet.networklayer.configurator.ipv4.IPv4NetworkConfigurator.html" title="Simple Module IPv4NetworkConfigurator" alt="" coords="5,79,175,104">
-<area shape="rect" id="node3" href="../../../inet/doc/neddoc/inet.physicallayer.idealradio.IdealRadioMedium.html" title="Compound Module IdealRadioMedium" alt="" coords="199,79,330,104">
-<area shape="rect" id="node4" href="../../../inet/doc/neddoc/inet.visualizer.contract.IIntegratedVisualizer.html" title="Module Interface IIntegratedVisualizer" alt="" coords="354,79,495,104">
-<area shape="rect" id="node5" href="../../../inet/doc/neddoc/inet.node.aodv.AODVRouter.html" title="Compound Module AODVRouter" alt="" coords="519,79,618,104">
-<area shape="rect" id="node6" href="../../../inet/doc/neddoc/inet.node.inet.INetworkNode.html" title="Module Interface INetworkNode" alt="" coords="642,79,749,104">
