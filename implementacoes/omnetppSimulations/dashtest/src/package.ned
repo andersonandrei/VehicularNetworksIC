@@ -1,0 +1,3 @@
+package dashtest;
+
+@license(LGPL);
