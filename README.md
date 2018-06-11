@@ -110,7 +110,53 @@ Seguem ,por semana, as atividades efetuadas a partir do dia 19/03 (data da inclu
 		e acreditamos que nos saímos bem.
 		A partir de agora, vamos nos reunir com nosso orientador para programar as próximas
 		etapas.
+		Também fiz um pull request para o repositório do INET Framework com a nossa 
+		implementação da transmissão de vídeo ao vivo via TCP e via DASH, e com nosso cenário 
+		experimental. Para que os dois primeiros fossem acrescentados aos módulos de 
+		TCP->Wireless e o cenário experimntal para os exemplos disponíveis.
+
+	- De 6 a 7 de Maio : Participação no SBRC2018 em Campos do Jordão. 
+		![SBRC2018 Campos do Jordão](https://github.com/andersonandrei/VehicularNetworksIC/blob/master/SBRC2018/1.jpg)
+
+	- Semana do 07/05 :
+		Durante nossa apresentação no SBRC2018 tivemos muitas perguntas construtivas e algumas 	
+		recomendações muito interessantes. Assim, nessa semana, agrupamos toda a informação 
+		obtida no Simpósio e fizemos nossa devolutiva para nosso orientador.
+
+	- Semana do 14/05 :
+		Durante essa semana, remontamos nosso plano de trabalho, partindo agora para o estudo
+		 da parte específica de redes veiculares, assim como as ferramentas que usaremos a 
+		 partir de então. São elas o Veins e o Sumo Simulator que são módulos do OMNeT++ 
+		 e que interagem com o INET Framework, que temos utilizado.
+
+	- Semana do 21/05 :
+		Verifiquei que está para ser lançada uma nova versão do INET Framework e decidimos
+		versar nosso projeto para tal atualização.
+		Também apontaram no meu pull request que seria mais fácil de acrescentar o projeto 
+		ao repositório em si, se eu o atualiza-se o para essa nova versão.
+		A partir da branch "integration" do repositório deles do GitHub obtive tal versão 
+		em desenvolvimento para então adequar nossa implementação de transmissão de 
+		vídeo ao vivo via TCP e via DASH, assim como nosso cenário experimental.
+
+	- Semana do 28/05 :
+		Ainda estou trabalhando na atualização do nosso cenário para a nova versão do 
+		INET Framework. Alguns módulos de transmissão de pacotes foram refatorados, e 
+		uma nova camada de validação da integridade dos pacotes foi acrescentada, assim, 
+		estou com dificuldades para efetuar a atualização.
+		Mesmo assim, atualizei minhas modificações no meu pull request para o repositório 
+		e pedi orientações para o tratamento dos erros.
+
+	- Semana do 04/06 : 
+		Recebi uma resposta com uma breve explicação do erro e possíveis próximos passos. 
+		Recebi também outra resposta de um outro desenvolvedor da comunidade informando 
+		que criou uma branch com minhas modificações e que está trabalhando em correções.
+
+	- Semana do 11/06 :
+		Consegui arrumar mais um erro da implementação e atualizei no pull request, mas 
+		ainda existem erros na minha simulação. O código compila e executa, mas está 
+		apontando erro durante a simulação.
+		Nesta semana trabalharei no banner que será exposto com os principais resultados 
+		da pesquisa. Nele apontarei dados do paper que publicamos.
+
 	
 
-- De 6 a 7 de Maio : Participação no SBRC2018 em Campos do Jordão. 
-![SBRC2018 Campos do Jordão](https://github.com/andersonandrei/VehicularNetworksIC/blob/master/SBRC2018/1.jpg)
