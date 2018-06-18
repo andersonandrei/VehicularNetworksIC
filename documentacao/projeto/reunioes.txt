@@ -349,15 +349,15 @@
 
 (05-02 - 19/03) 
 
-Dentro desse período passamos a trabalhar presencialmente constantemente, de forma que as decisões que antes necessitavam de reuniões passaram a ser tomadas mais facilmente. Passamos a relatar apenas as tarefas executadas periodicamente, como consta no README.md na raiz do repositório.
-Durante esse período executamos as seguintes etapas:
-	- Finalizamos o cenário experimental e sua implementação;
-	- Definimos e executamos os testes analisando:
-		- Delay na entrega dos pacotes entre Emissor e Receptor;
-		- Quantidade total de KiB recebidos pelo Receptor;
-		- Taxa de perda de pacotes na transmissão;
+	Dentro desse período passamos a trabalhar presencialmente constantemente, de forma que as decisões que antes necessitavam de reuniões passaram a ser tomadas mais facilmente. Passamos a relatar apenas as tarefas executadas periodicamente, como consta no README.md na raiz do repositório.
+	Durante esse período executamos as seguintes etapas:
+		- Finalizamos o cenário experimental e sua implementação;
+		- Definimos e executamos os testes analisando:
+			- Delay na entrega dos pacotes entre Emissor e Receptor;
+			- Quantidade total de KiB recebidos pelo Receptor;
+			- Taxa de perda de pacotes na transmissão;
 
-		Todos eles comparados entre os protocolos TCP, UDP e a técnica DASH.
+			Todos eles comparados entre os protocolos TCP, UDP e a técnica DASH.
 
 - Semana do 19/03 : 
 	Revisão e conclusão das análises dos dados obtidos. Finalização do primeiro artigo
