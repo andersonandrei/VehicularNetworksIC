@@ -350,8 +350,7 @@
 (05-02 - 19/03) 
 
 Dentro desse período passamos a trabalhar presencialmente constantemente, de forma que as decisões que antes necessitavam de reuniões passaram a ser tomadas mais facilmente. Passamos a relatar apenas as tarefas executadas periodicamente, como consta no README.md na raiz do repositório.
-
-A partir do 05-02 executamos as seguintes etapas:
+Durante esse período executamos as seguintes etapas:
 	- Finalizamos o cenário experimental e sua implementação;
 	- Definimos e executamos os testes analisando:
 		- Delay na entrega dos pacotes entre Emissor e Receptor;
@@ -360,92 +359,90 @@ A partir do 05-02 executamos as seguintes etapas:
 
 		Todos eles comparados entre os protocolos TCP, UDP e a técnica DASH.
 
-Seguem o controle de atividades a partir do 19/03 :
+- Semana do 19/03 : 
+	Revisão e conclusão das análises dos dados obtidos. Finalização do primeiro artigo
+	do projeto e submissão na trilha WTG da 
+	SBRC2018 ( http://www.sbrc2018.ufscar.br/ ).
 
-	- Semana do 19/03 : 
-		Revisão e conclusão das análises dos dados obtidos. Finalização do primeiro artigo
-		do projeto e submissão na trilha WTG da 
-		SBRC2018 ( http://www.sbrc2018.ufscar.br/ ).
+- Semana do 26/03 : 
+	Revisão geral do trabalho feito até então e levantamento das próximas tarefas. 
+	Junto com a disciplina MAC0470 foi criado um subprojeto, para submeter o cenário
+	concluído até a etapa	anterior no repositório oficial da extensão do simulador, 
+	INET Framework ( https://inet.omnetpp.org/ ), colaborando com a comunidade 
+	que o utiliza.
 
-	- Semana do 26/03 : 
-		Revisão geral do trabalho feito até então e levantamento das próximas tarefas. 
-		Junto com a disciplina MAC0470 foi criado um subprojeto, para submeter o cenário
-		concluído até a etapa	anterior no repositório oficial da extensão do simulador, 
-		INET Framework ( https://inet.omnetpp.org/ ), colaborando com a comunidade 
-		que o utiliza.
+- Semana do 02/04 : 
+	Por motivo de problemas pessoais, não trabalhei no projeto nessa semana.
 
-	- Semana do 02/04 : 
-		Por motivo de problemas pessoais, não trabalhei no projeto nessa semana.
+- Semana do 09/04 :
+	Revisão e correções seguindo os apontamento do feedback da submissão para a trilha
+	WTG da SBRC2018. O artigo foi aceito :D !! Resultado divulgado 10/04.
 
-	- Semana do 09/04 :
-		Revisão e correções seguindo os apontamento do feedback da submissão para a trilha
-		WTG da SBRC2018. O artigo foi aceito :D !! Resultado divulgado 10/04.
+- Semana do 16/04 :
+	Foi marcada uma pré-apresentação do nosso trabalho para o grupo de sistemas 
+	para o dia 23/04 para que possamos melhor nos preparar para o Congresso.
+	Nessa semana foquei em rever toda a fundamentação do trabalho, os conceitos 
+	e bibliografias principais para estar preparado para possíveis questionamentos 
+	e para melhor preparar a apresentação.
 
-	- Semana do 16/04 :
-		Foi marcada uma pré-apresentação do nosso trabalho para o grupo de sistemas 
-		para o dia 23/04 para que possamos melhor nos preparar para o Congresso.
-		Nessa semana foquei em rever toda a fundamentação do trabalho, os conceitos 
-		e bibliografias principais para estar preparado para possíveis questionamentos 
-		e para melhor preparar a apresentação.
+- Semana do 23/04:
+	Nessa semana eu apresentei, junto ao meu grupo, nosso projeto do WTG do SBRC2018.
+	A apresentação foi feita para o grupo de sistemas do IME e tivemos ótimos
+	feedbacks. Assim sendo agora estamos trabalhando nas possíveis correções 
+	para a apresentação oficial que será no dia 6 de Maio no SBRC.
 
-	- Semana do 23/04:
-		Nessa semana eu apresentei, junto ao meu grupo, nosso projeto do WTG do SBRC2018.
-		A apresentação foi feita para o grupo de sistemas do IME e tivemos ótimos
-		feedbacks. Assim sendo agora estamos trabalhando nas possíveis correções 
-		para a apresentação oficial que será no dia 6 de Maio no SBRC.
+- Semana do 30/04:
+	Fizemos as correções apontadas na nossa apresentação para o grupo de sistemas do IME.
+	No dia 06/05 fomos para a SBRC2018 em Campos do Jordão para então apresentar nosso
+	artigo. A apresentação foi ótima, tivemos muitas perguntas e comentários construtivos
+	e acreditamos que nos saímos bem.
+	A partir de agora, vamos nos reunir com nosso orientador para programar as próximas
+	etapas.
+	Também fiz um pull request para o repositório do INET Framework com a nossa 
+	implementação da transmissão de vídeo ao vivo via TCP e via DASH, e com nosso cenário 
+	experimental. Para que os dois primeiros fossem acrescentados aos módulos de 
+	TCP->Wireless e o cenário experimntal para os exemplos disponíveis.
 
-	- Semana do 30/04:
-		Fizemos as correções apontadas na nossa apresentação para o grupo de sistemas do IME.
-		No dia 06/05 fomos para a SBRC2018 em Campos do Jordão para então apresentar nosso
-		artigo. A apresentação foi ótima, tivemos muitas perguntas e comentários construtivos
-		e acreditamos que nos saímos bem.
-		A partir de agora, vamos nos reunir com nosso orientador para programar as próximas
-		etapas.
-		Também fiz um pull request para o repositório do INET Framework com a nossa 
-		implementação da transmissão de vídeo ao vivo via TCP e via DASH, e com nosso cenário 
-		experimental. Para que os dois primeiros fossem acrescentados aos módulos de 
-		TCP->Wireless e o cenário experimntal para os exemplos disponíveis.
+- De 6 a 7 de Maio : Participação no SBRC2018 em Campos do Jordão. 
+	![SBRC2018 Campos do Jordão](https://github.com/andersonandrei/VehicularNetworksIC/blob/master/SBRC2018/1.jpg)
 
-	- De 6 a 7 de Maio : Participação no SBRC2018 em Campos do Jordão. 
-		![SBRC2018 Campos do Jordão](https://github.com/andersonandrei/VehicularNetworksIC/blob/master/SBRC2018/1.jpg)
+- Semana do 07/05 :
+	Durante nossa apresentação no SBRC2018 tivemos muitas perguntas construtivas e algumas 	
+	recomendações muito interessantes. Assim, nessa semana, agrupamos toda a informação 
+	obtida no Simpósio e fizemos nossa devolutiva para nosso orientador.
 
-	- Semana do 07/05 :
-		Durante nossa apresentação no SBRC2018 tivemos muitas perguntas construtivas e algumas 	
-		recomendações muito interessantes. Assim, nessa semana, agrupamos toda a informação 
-		obtida no Simpósio e fizemos nossa devolutiva para nosso orientador.
+- Semana do 14/05 :
+	Durante essa semana, remontamos nosso plano de trabalho, partindo agora para o estudo
+	 da parte específica de redes veiculares, assim como as ferramentas que usaremos a 
+	 partir de então. São elas o Veins e o Sumo Simulator que são módulos do OMNeT++ 
+	 e que interagem com o INET Framework, que temos utilizado.
 
-	- Semana do 14/05 :
-		Durante essa semana, remontamos nosso plano de trabalho, partindo agora para o estudo
-		 da parte específica de redes veiculares, assim como as ferramentas que usaremos a 
-		 partir de então. São elas o Veins e o Sumo Simulator que são módulos do OMNeT++ 
-		 e que interagem com o INET Framework, que temos utilizado.
+- Semana do 21/05 :
+	Verifiquei que está para ser lançada uma nova versão do INET Framework e decidimos
+	versar nosso projeto para tal atualização.
+	Também apontaram no meu pull request que seria mais fácil de acrescentar o projeto 
+	ao repositório em si, se eu o atualiza-se o para essa nova versão.
+	A partir da branch "integration" do repositório deles do GitHub obtive tal versão 
+	em desenvolvimento para então adequar nossa implementação de transmissão de 
+	vídeo ao vivo via TCP e via DASH, assim como nosso cenário experimental.
 
-	- Semana do 21/05 :
-		Verifiquei que está para ser lançada uma nova versão do INET Framework e decidimos
-		versar nosso projeto para tal atualização.
-		Também apontaram no meu pull request que seria mais fácil de acrescentar o projeto 
-		ao repositório em si, se eu o atualiza-se o para essa nova versão.
-		A partir da branch "integration" do repositório deles do GitHub obtive tal versão 
-		em desenvolvimento para então adequar nossa implementação de transmissão de 
-		vídeo ao vivo via TCP e via DASH, assim como nosso cenário experimental.
+- Semana do 28/05 :
+	Ainda estou trabalhando na atualização do nosso cenário para a nova versão do 
+	INET Framework. Alguns módulos de transmissão de pacotes foram refatorados, e 
+	uma nova camada de validação da integridade dos pacotes foi acrescentada, assim, 
+	estou com dificuldades para efetuar a atualização.
+	Mesmo assim, atualizei minhas modificações no meu pull request para o repositório 
+	e pedi orientações para o tratamento dos erros.
 
-	- Semana do 28/05 :
-		Ainda estou trabalhando na atualização do nosso cenário para a nova versão do 
-		INET Framework. Alguns módulos de transmissão de pacotes foram refatorados, e 
-		uma nova camada de validação da integridade dos pacotes foi acrescentada, assim, 
-		estou com dificuldades para efetuar a atualização.
-		Mesmo assim, atualizei minhas modificações no meu pull request para o repositório 
-		e pedi orientações para o tratamento dos erros.
+- Semana do 04/06 : 
+	Recebi uma resposta com uma breve explicação do erro e possíveis próximos passos. 
+	Recebi também outra resposta de um outro desenvolvedor da comunidade informando 
+	que criou uma branch com minhas modificações e que está trabalhando em correções.
 
-	- Semana do 04/06 : 
-		Recebi uma resposta com uma breve explicação do erro e possíveis próximos passos. 
-		Recebi também outra resposta de um outro desenvolvedor da comunidade informando 
-		que criou uma branch com minhas modificações e que está trabalhando em correções.
-
-	- Semana do 11/06 :
-		Consegui arrumar mais um erro da implementação e atualizei no pull request, mas 
-		ainda existem erros na minha simulação. O código compila e executa, mas está 
-		apontando erro durante a simulação.
-		Nesta semana trabalharei no banner que será exposto com os principais resultados 
-		da pesquisa. Nele apontarei dados do paper que publicamos.
+- Semana do 11/06 :
+	Consegui arrumar mais um erro da implementação e atualizei no pull request, mas 
+	ainda existem erros na minha simulação. O código compila e executa, mas está 
+	apontando erro durante a simulação.
+	Nesta semana trabalharei no banner que será exposto com os principais resultados 
+	da pesquisa. Nele apontarei dados do paper que publicamos.
 
